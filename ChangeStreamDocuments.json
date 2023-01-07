@@ -1,0 +1,76 @@
+  {
+    "operationType":"update",
+    "resumeToken": {
+      "_data": "8263B8985E000000042B022C0100296E5A1004C04402743667488B9EC3E70477CF59C346645F6964006463B893874B12F16136F0317A0004"
+    },
+    "namespace": "WFAudit.BTRequests",
+    "destinationNamespace": null,
+    "updateDescription": {
+      "removedFields":[],
+      "updatedFields": {
+        "accountNumber": "4555454530003000",
+        "attributes.4.attributeValue": "PRODUCTION"
+      },
+      "truncatedArrays": [],
+      "disambiguatedPaths": null
+    },
+    "fullDocument": {
+      "_id": {
+        "$oid": "63b893874b12f16136f0317a"
+      },
+      "accountNumber": "4555454530003000",
+      "achAccountNumber": "208050001",
+      "achRoutingNumber": "84900275",
+      "attributes": [
+        {
+          "attributeName": "applicationNumber",
+          "attributeValue": {
+            "$numberLong": "20182334000030"
+          }
+        },
+        {
+          "attributeName": "btCreditorAccountNumber",
+          "attributeValue": "20600000000000000"
+        },
+        {
+          "attributeName": "btCreditorName",
+          "attributeValue": "WELLS FARGO"
+        },
+        {
+          "attributeName": "billerId",
+          "attributeValue": "27880000100"
+        },
+        {
+          "attributeName": "channelSource",
+          "attributeValue": "STAGING"
+        },
+        {
+          "attributeName": "hostName",
+          "attributeValue": "ACAPS"
+        },
+        {
+          "attributeName": "promotionId",
+          "attributeValue": 4136
+        },
+        {
+          "attributeName": "fulfillmentMethod",
+          "attributeValue": "Electronic"
+        }
+      ],
+      "responseId": 2478662
+    },
+    "fullDocumentBeforeChange" : null,
+    "documentKey": {
+      "_id": {
+        "$oid": "63b893874b12f16136f0317a"
+      }
+    },
+    "clusterTime": {
+      "value": 7185660734963974148,
+      "seconds": 1673042014,
+      "inc": 4
+    },
+    "txnNumber": null,
+    "lsid": null,
+    "wallTime": null
+  }
